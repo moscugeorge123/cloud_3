@@ -1,6 +1,6 @@
 const app = require('express')();
 
-app.use('/', (res, req) => {
+app.use('/', (req, res) => {
   res.statusCode = 200;
   res.send({ dene: true });
 });
